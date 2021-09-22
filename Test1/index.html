@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Hello World</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+	 crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!-- bootstrap -->
+		<div class="card mb-3" style="max-width: 540px;">
+			<div class="row g-0">
+				<div class="col-md-4">
+					<!-- Imagen -->
+					<img id="imagen" src="https://cdn.fastly.picmonkey.com/contentful/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=800&q=70" alt="Profile Image">
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<!-- heading -->
+						<h5 class="card-title">
+							<label id="nombre"></label>
+						</h5>
+						<!-- parrafos -->
+						<p class="card-text">Soy una persona muy <strong>comprometida</strong>, me gusta mucho programar y deseo algun dia ser el mejor programador de la historia.</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Gustos -->
+		<div id="gustos">
+			<h2> Lo que quiero es:</h2>
+
+			<!-- Lista Con Orden -->
+			<ol>
+				<li> Ser programador</li>
+				<li> Viajar a la luna</li>
+				<li> Comprar una nive despus de clase</li>
+			</ol>
+
+		</div>
+
+		<!-- Programas -->
+		<div id="programas">
+			<h2> Se programar con:</h2>
+
+			<!-- Lista Sin Orden -->
+			<ul>
+				<li> HTML</li>
+				<li> CSS</li>
+				<li> Javascript</li>
+				<li> Botstap</li>
+			</ul>
+
+		</div>
+
+
+		<!-- Tabla  -->
+		<table class="table" style="max-width: 540px;">
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Producto</th>
+					<th scope="col">Cantidad</th>
+					<th scope="col">Precio</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>Leche</td>
+					<td>2</td>
+					<td>$90</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>Huevo</td>
+					<td>24</td>
+					<td>$66</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td colspan="2">Jamon</td>
+					<td>$50</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<!-- Youtube -->
+		<div >
+			<embed type="video/webm" width="200" height="150" src="https://www.youtube.com/embed/Ch1GG4xM8nw&ab_channel=UpEmpresaTutoriales">
+		</div>
+
+
+		<!-- Spotify -->
+		<div >
+			<iframe  width="200" height="150" src="https://open.spotify.com/embed/track/3OKQSIFRTVecVrqHXhZ4Tm" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		</div>
+
+	<script src="script.js">
+	</script>
+
+  </body>
+</html>
